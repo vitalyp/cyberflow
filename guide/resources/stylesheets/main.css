@@ -235,7 +235,7 @@ body {
 #container {
   color: #333;
   padding: 0.5em 0 1.5em 0;
-  background: url(/images/logo.png);
+  /*background: url(/images/logo.png);*/
 }
 
 #mainCol {
