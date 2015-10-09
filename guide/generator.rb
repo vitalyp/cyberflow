@@ -6,7 +6,8 @@ CYBERFLOW_VERSION = 'v'+File.read(File.expand_path('../../CYBERFLOW_VERSION', __
 MARKDOWN_DIR = './md/'
 RESOURCES_DIR = './resources/'
 LAYOUT_NAME = 'layout'
-OUTPUT_PATH = './compiled/'
+#OUTPUT_PATH = './compiled/'
+OUTPUT_PATH = './../public/'
 GUIDES = /\.(?:erb|md)\z/
 
 require_relative 'render_engine'

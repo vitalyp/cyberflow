@@ -4,3 +4,4 @@
 0.0.4:repaint some graphic resources
 0.0.5:add compile instructions to readme
 0.0.6:rename to proper extension: readme.rdoc to readme.md
+0.0.7:pusher websocket activated + some ui changes

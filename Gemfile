@@ -25,8 +25,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'nokogiri'
 # markdown generator
 gem 'redcarpet'
-
-
+# WebSockets functionality
+gem 'pusher'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

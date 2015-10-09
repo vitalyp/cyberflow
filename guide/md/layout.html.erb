@@ -1,25 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title><%= yield(:page_title) || 'cyberflow layout' %></title>
-<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
-
-<!--<link rel="stylesheet" type="text/css" href="stylesheets/print!.css" media="print" />-->
-
-<link rel="stylesheet" type="text/css" href="stylesheets/syntaxhighlighter/shCore.css" />
-<link rel="stylesheet" type="text/css" href="stylesheets/syntaxhighlighter/shThemeRailsGuides.css" />
-
-<link rel="stylesheet" type="text/css" href="stylesheets/fixes.css" />
-
-<link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
-
-<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= yield(:page_title) || 'cyberflow layout' %></title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+  <!--<link rel="stylesheet" type="text/css" href="stylesheets/print!.css" media="print" />-->
+  <link rel="stylesheet" type="text/css" href="stylesheets/syntaxhighlighter/shCore.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/syntaxhighlighter/shThemeRailsGuides.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/fixes.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <%= yield :head %>
 </head>
+
 <body class="guide">
   <% if @edge %>
   <div>
@@ -34,11 +29,11 @@
       </span>
       <ul class="more-info-links s-hidden">
         <li class="more-info"><a href="index.html">Index</a></li>
-        <li class="more-info"><a href="overview.html">Overview</a></li>
-        <li class="more-info"><a href="contributing.html">Contributing</a></li>
+        <li class="more-info"><a href="#">Overview</a></li>
+        <li class="more-info"><a href="#">Contributing</a></li>
         <li class="more-info"><a href="#">Screencast</a></li>
         <li class="more-info"><a href="#">Technical Documentation</a></li>
-        <li class="more-info"><a href="http://interlink-ua.com">About us</a></li>
+        <li class="more-info"><a href="#">About us</a></li>
       </ul>
     </div>
   </div>
@@ -50,11 +45,11 @@
         </li>
         <li class='logo-nav'>
           <a href="https://ua.linkedin.com/in/vitalypestov" class="logo">
-            <img src="./images/logo.png" alt="InterLink">
+            <img src="./images/logo.png" alt="vitalyp">
           </a>
         </li>
         <li class="guides-index guides-index-large">
-          <a href="index.html" onclick="guideMenu(); return false;" id="guidesMenu" class="guides-index-item nav-item">Guides Index</a>
+          <a href="index.html" onclick="guideMenu(); return false;" id="guidesMenu" class="guides-index-item nav-item">Create Activity</a>
           <div id="guides" class="clearfix" style="display: none;">
             <hr />
             <% ['L', 'R'].each do |position| %>

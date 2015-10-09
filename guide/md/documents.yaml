@@ -106,7 +106,7 @@
       url: contributing.html
       description: This guide covers a variety of ways that you can get involved in the ongoing development of CyberfloW.
     -
-      name: CyberfloW Guides Guidelines
+      name: CyberfloW Guides Guidelines!
       work_in_progress: true      
       url: ruby_on_rails_guides_guidelines.html
       description: This guide documents the Ruby on Rails guides guidelines.

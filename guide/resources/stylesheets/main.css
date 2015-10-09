@@ -227,9 +227,15 @@ body {
 
 #feature {
   border-top: 1px solid lightgray;
-  background: #d5e9f6 url(../images/feature_tile.gif) repeat-x;
   color: #333;
   padding: 0.5em 0 1.5em;
+  background-attachment: scroll, scroll;
+  background-blend-mode: luminosity, luminosity;
+  background-clip: border-box, border-box;
+  background-color: rgb(211, 224, 232);
+  background-image: linear-gradient(to top, rgb(90, 89, 19) 7%, white 86%), url(https://cyberflow-vitalyp.c9.io/images/feature_tile-0.gif);
+  background-origin: padding-box, padding-box;
+  background-size: auto, auto;
 }
 
 #container {
@@ -312,17 +318,35 @@ a, a:link, a:visited {
 .nav .nav-item:hover {text-decoration: underline;}
 
 .guides-index-large, .guides-index-small .guides-index-item {
+      border-top: 1px solid #BDB934;
+      border-bottom: 2px solid rgba(16, 40, 58, 0.81);
+  
+      background-image: linear-gradient(to top,rgb(40, 117, 46) 7%, white 86%), url(../images/feature_tile-0.gif);
+      
+  background-image: linear-gradient(to top,rgb(90, 89, 19) 7%, white 86%), url(../images/feature_tile-0.gif);
+  
+  border-radius: 40px 6px 34px 0px;
+  -webkit-border-radius: 40px 6px 34px 0px;
+  -moz-border-radius: 40px 6px 34px 0px;
+  
+  
+  /*
+  border-radius: 0px 0px 40px 40px;
+  -webkit-border-radius: 0px 0px 40px 40px;
+  -moz-border-radius: 0px 0px 40px 40px;
+  */
+  /*
+  border-radius: 14px 14px 18px 18px;
+  -webkit-border-radius: 14px 14px 18px 18px;
+  -moz-border-radius: 14px 14px 18px 18px;
+  */
+  padding: 0.5em 4.0em;
   display: inline-block!important;
   float: right;
   margin-right: 65px;
   float: right;
-  margin-top: 27px;
-
-  padding: 0.5em 1.5em;
-  border-radius: 1em;
-  -webkit-border-radius: 1em;
-  -moz-border-radius: 1em;
-  background: #42668D;
+  margin-top: -5px;
+  /*background: #42668D;*/
   position: relative;
   color: white;
 }
@@ -330,10 +354,14 @@ a, a:link, a:visited {
 .logo-nav {
     float: right;
     margin-right: 50px;
+    margin-top: 8px;
 }
 
 .guides-index .guides-index-item {
-  background: #42668D url(../images/nav_arrow.png) no-repeat right top;
+  /*background: #42668D url(../images/nav_arrow.png) no-repeat right top;*/
+  text-shadow: 1px 1px 3px #092711;
+  font-weight: bold;
+  
   padding-right: 1em;
   position: relative;
   z-index: 15;
