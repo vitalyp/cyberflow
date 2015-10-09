@@ -1,3 +1,5 @@
 0.0.1:init application rails-4.2.1 ruby-2.2.2
 0.0.2:require markdown parser libraries
 0.0.3:implement compiler for markdown templates
+0.0.4:repaint some graphic resources
+0.0.5:add compile instructions to readme
