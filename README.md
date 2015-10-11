@@ -2,13 +2,9 @@
 
 > Aloha in the Hawaiian language means affection, peace, compassion, and mercy.
 
-
-##View Generating:
-
-To generate html views from markdown templates, navigate 'guide' folder and run:
-
-`$ ruby generator.rb`
-
-Then, copy content of 'compiled' folder to 'public'.
-
+    cd guide/
+    ruby generator.rb
+    
+[]()
+![abc](https://avatars3.githubusercontent.com/u/892866?v=3&s=460 "abcdefj")
 
